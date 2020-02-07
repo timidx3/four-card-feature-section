@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,400&display=swap');
+
+body{
+    background-color: hsl(0, 0%, 98%);
+    font-family: "Poppins";
+    font-size: 0.95rem;
+    color: hsl(229, 6%, 66%);
+}
+
+h1, h2, h3{
+    color: hsl(234, 12%, 34%);
+}
+
+#title{
+    text-align: center;
+    margin: 3%
+}
+
+.title-thin{
+    font-weight: lighter;
+    letter-spacing: 0.1rem;
+}
+
+.title-thick{
+    font-weight: bold;
+    letter-spacing: 0.15rem;
+    padding-bottom: 2rem;
+}
+
+.title-text{
+    font-weight: lighter;
+    padding: 0 28%;
+}
+
+.cards {
+    height: 15rem;
+    background: #ffffff;
+    border-top: 4px solid #000000;
+    border-radius: 6px;
+    box-shadow: 0px 4px 16px 0px #cccccc;
+}
+
+.card-title{
+    margin: 7% 7% 5% 7%;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.card-text{
+    margin: 5% 7%;
+}
+
+.card-image{
+    float: right;
+    padding: 5% 7% 7%;
+}
+
+.card-super{
+	border-top: 5px solid #40d5d3;
+    margin-top: 28%;
+    margin-left: auto;
+    margin-right: -1%;
+}
+
+.card-team{
+    border-top: 5px solid #ed5457;
+    margin-top: -12%;
+}
+
+.card-calc{
+	border-top: 5px solid #559cee;
+    margin-top: 28%;
+    margin-right: auto;
+    margin-left: -1%;
+}
+
+.card-karma{
+	border-top: 5px solid #fcae4a;
+    margin-top: -32%;
+}
+
+#footer{
+    text-align: center;
+    padding-top: 4%;
+}
+
+@media (max-width: 769px) {
+    
+    .title-thin{
+        font-weight: lighter;
+        letter-spacing: 0.1rem;
+        font-size: 1.5rem;
+        margin-top: 8%;
+    }
+    
+    .title-thick{
+        font-weight: bold;
+        letter-spacing: 0.15rem;
+        padding-bottom: 2rem;
+        font-size: 1.5rem;
+    }
+    
+    .title-text{
+        font-weight: lighter;
+        padding: 0;
+    }
+    
+    .card-super{
+        border-top: 5px solid #40d5d3;
+        margin: 0% 5% 5%;
+    }
+    
+    .card-team{
+        border-top: 5px solid #ed5457;
+        margin: 5%;
+    }
+    
+    .card-calc{
+        border-top: 5px solid #559cee;
+        margin: 5%;
+    }
+    
+    .card-karma{
+        border-top: 5px solid #fcae4a;
+        margin: 5%;
+    }
+}

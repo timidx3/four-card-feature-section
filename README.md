@@ -1,5 +1,7 @@
 My solution for the "Four card feature section" challenge from https://www.frontendmentor.io
 
+Visit https://timidx3.github.io/four-card-feature-section/ to view
+
 # Frontend Mentor - Four card feature section
 
 ![Design preview for the Four card feature section coding challenge](./design/desktop-preview.jpg)
